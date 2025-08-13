@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap');
+
+body{ background-color: purple;
+    background-image:url("images/platapus.jpg");
+    background-size: cover;
+
+}
+
+h1{
+    font-family: "Condiment", cursive;
+    color: black;
+    background-color: aqua;
+   border-right: 2px solid red;
+   border-left: 2px solid pink;
+padding: 30px;
+text-align: left;
+width: 25%;
+}
+
+p{color: purple;
+font-size: x-large;}
+
+
+
+}

@@ -1,0 +1,35 @@
+
+
+body{text-align: left;
+    background-color: #16365d;
+
+    h1{font-family: "Arial";
+        color: white;
+        text-align: right;
+    }
+    p{color: white;}
+    ul{
+        size: 1px;
+        font-family: "Arial";
+    li::marker{color: white;}
+    
+    .t-text{color: red;
+    font-style: italic;
+}
+}
+    .red{color: red;
+   text-decoration: underline;}
+
+   .magenta{color: magenta;}
+   li{color: white;}
+
+    h2{text-align: right;
+    color: red;
+width: 50%;}
+
+h3{color: white;
+    background-color: black;}
+
+
+
+    }
