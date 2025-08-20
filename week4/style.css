@@ -1,0 +1,19 @@
+.box{ width: 100%;height: 100px;color:yellowgreen;
+background-color: blueviolet;}
+.box1{background-color: aquamarine;}
+.box2{background-color: rgb(255, 127, 202);}
+.box3{background-color: rgb(127, 255, 133);}
+    .box4{background-color: rgb(197, 127, 255);
+    width: 50%}
+.box5{background-color: rgb(230, 5, 16);
+;}
+.box6{background-color: rgb(112, 21, 26);
+width: 50%}
+.box7{background-color: rgb(89, 101, 206);}
+.box8{background-color: rgb(89, 101, 206);
+width: 50%;}
+
+
+.container{display:flex}
+.container2{display:flex}
+.container3{display:flex}
