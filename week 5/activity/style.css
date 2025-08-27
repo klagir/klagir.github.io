@@ -1,0 +1,48 @@
+
+.wifi:hover{color: rgb(252, 252, 252);
+background-color: rgb(26, 26, 151);
+padding: 1px;
+    border-radius: 10px;
+    
+}
+
+
+
+.bed:hover{color: rgb(252, 252, 252);
+background-color: rgb(26, 26, 151);
+padding: 1px;
+    border-radius: 10px;
+    }
+
+
+
+.bathroom:hover{color: rgb(252, 252, 252);
+background-color: rgb(26, 26, 151);
+padding: 1px;
+    border-radius: 10px;
+    }
+
+
+
+
+.sqft:hover{color: rgb(252, 252, 252);
+background-color: rgb(26, 26, 151);
+padding: 1px;
+    border-radius: 10px;
+    }
+
+
+
+
+
+
+
+
+.container1{display: flex;}
+
+.container1{width: 30%;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    }
+

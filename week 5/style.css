@@ -1,0 +1,40 @@
+.card{width: 25%;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2, p{
+    margin:0;
+}
+
+.card-header{display: flex;
+}
+.card-header{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.btn{
+    border:none;
+    background-color: #9d82e8;
+    background: linear-gradient(90deg, rgba(157, 130, 232, 1) 0%, rgba(34, 29, 115, 1) 88%, rgba(186, 50, 100, 0.92) 100%);;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.btn:hover{
+    background-color:  #571d1d;
+background: linear-gradient(90deg, rgb(41, 34, 61) 0%, rgb(50, 47, 92) 88%, rgba(235, 129, 168, 0.92) 100%);
+    cursor: pointer;
+}
+.card2{
+    width: 25%;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container{display: flex;}
