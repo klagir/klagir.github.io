@@ -1,0 +1,113 @@
+.flight{color: #fafafa;
+
+ }
+.text{color: white; position:fixed;
+
+font-size: 20px;}
+
+
+
+    .home:hover{color: rgb(252, 252, 252);
+background-color: rgb(26, 26, 151);
+padding: 10px;
+    border-radius: 10px;}
+
+     .home{position:fixed;
+   
+   right: 10cm;
+}
+
+   
+
+
+ .features:hover{color: rgb(252, 252, 252);
+background-color: rgb(26, 26, 151);
+padding: 10px;
+    border-radius: 10px;}
+
+     .features{position:fixed;
+ right: 7.5cm;
+}
+
+   
+
+    
+    .picking:hover{color: rgb(252, 252, 252);
+background-color: rgb(26, 26, 151);
+padding: 10px;
+    border-radius: 10px;}
+
+     .picking{position:fixed;
+   
+   right: 5cm;
+}
+  
+
+
+ .faqs:hover{color: rgb(252, 252, 252);
+background-color: rgb(26, 26, 151);
+padding: 10px;
+    border-radius: 10px;}
+
+
+ .faqs{position:fixed;
+   
+   right: 3cm;
+}
+
+
+
+ .about:hover{color: rgb(252, 252, 252);
+background-color: rgb(26, 26, 151);
+padding: 10px;
+    border-radius: 1px;}
+
+ .about{position:fixed;
+
+   right: 1cm;
+}
+
+
+
+
+.text2{position: fixed;
+    right: 23cm;
+}
+
+    .p1{position: fixed;
+        right: 15cm;
+    bottom: 100px;}
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c1{}
+.c2{display: flex;
+background-color: #212529;
+height: 2cm;
+}
+
+.c3{display: flex;
+background-color: #212529;
+height: 2cm;
+}
+
+
+
+
+
+
+
