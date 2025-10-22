@@ -1,0 +1,139 @@
+
+:root {
+    --furni-dark: #3b5d50;
+    --furni-accent: #f9be29; 
+    --furni-secondary-dark: #2f4d3c; 
+    --furni-light-text: #ffffff; 
+    --furni-body-text: #6a6a6a; 
+}
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--furni-body-text);
+}
+
+
+.navbar-custom {
+    background-color: var(--furni-dark);
+}
+
+.hero-section {
+    background-color: var(--furni-dark);
+    color: var(--furni-light-text);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+   
+    background-image: linear-gradient(to right, var(--furni-dark) 45%, transparent 45%), url('https://via.placeholder.com/800x600/52857C/E5E5E5?text=Sofa+Image');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 55% auto;
+}
+
+
+@media (max-width: 992px) {
+    .hero-section {
+        background-image: none; 
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+
+.btn-furni-primary {
+    background-color: var(--furni-accent);
+    border-color: var(--furni-accent);
+    color: var(--furni-dark);
+    font-weight: bold;
+  
+    border-radius: 30px; 
+}
+.btn-furni-primary:hover {
+    background-color: #e3a91e; 
+    border-color: #e3a91e;
+    color: var(--furni-dark);
+}
+.btn-furni-secondary {
+    background-color: transparent;
+    border-color: var(--furni-secondary-dark);
+    color: var(--furni-light-text);
+    border-radius: 30px;
+}
+
+
+.product-card, .blog-card {
+    border: none;
+    text-align: center;
+}
+
+.product-card .btn {
+    background-color: var(--furni-dark) !important;
+    color: var(--furni-light-text) !important;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 1;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.chair-thumb {
+    max-width: 100px;
+}
+.feature-icon {
+    font-size: 1.5rem;
+    color: var(--furni-dark);
+}
+
+
+.staggered-image-1 {
+    min-height: 400px;
+    background-image: url('https://via.placeholder.com/400x400/D4B892/3b5d50?text=Image+1');
+    background-size: cover;
+    background-position: center;
+}
+.staggered-image-2 {
+    min-height: 250px;
+    background-image: url('https://via.placeholder.com/300x450/A3C7D4/3b5d50?text=Image+2');
+    background-size: cover;
+    background-position: center;
+}
+.staggered-image-3 {
+    min-height: 180px;
+    background-image: url('https://via.placeholder.com/150x150/808080/3b5d50?text=Image+3');
+    background-size: cover;
+    background-position: center;
+}
+.staggered-placeholder {
+    min-height: 200px;
+    background-color: #f8f8f8;
+}
+
+
+.footer-furni {
+    background-color: var(--furni-dark);
+    color: var(--furni-light-text);
+    padding-top: 5rem;
+    position: relative;
+    overflow: hidden; 
+}
+.footer-furni a {
+    color: var(--furni-light-text);
+    text-decoration: none;
+}
+.footer-furni a:hover {
+    color: var(--furni-accent);
+}
+.footer-furni .form-control {
+    border-radius: 0;
+    border: none;
+}
+.footer-furni .btn {
+    border-radius: 0;
+ 
+    background-color: var(--furni-accent);
+    color: var(--furni-dark);
+}
+.footer-chair-img {
+    width: 250px; 
+    z-index: 1;
+}
